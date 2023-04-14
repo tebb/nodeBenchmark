@@ -1,0 +1,16 @@
+{
+  "name": "benchmark",
+  "version": "1.0.0",
+  "description": "Testing node performance",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.mjs",
+    "start": "node index.mjs",
+    "debug": "node --inspect index.mjs"
+  },
+  "author": "Howard Taylor <tayhow42@hotmail.com> (https://www.bbc.co.uk/)",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "benchmark": "^2.1.4"
+  }
+}
